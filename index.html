@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare Appointment Booking</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+    <h1>Book a Healthcare Appointment</h1>
+
+    <input class="search" type="text" id="searchInput" placeholder="Search by name or specialization..." oninput="filterDoctors()" />
+
+    <div class="doctor-list" id="doctorList"></div>
+
+    <div class="doctor-details" id="doctorDetails"></div>
+
+    <div class="booking-form" id="bookingForm">
+        <h3>Book Appointment</h3>
+        <input type="text" id="patientName" placeholder="Patient Name" required />
+        <input type="email" id="patientEmail" placeholder="Email" required />
+        <input type="datetime-local" id="appointmentTime" required />
+        <button class="btn" onclick="submitAppointment()">Confirm Appointment</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
