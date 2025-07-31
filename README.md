@@ -42,5 +42,5 @@ A simple frontend application for booking doctor appointments. Users can browse 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/harikrishnaalvala/NirogGyan-frontend-assignment.git
+   git clone https://github.com/harikrishnaalvala/NirogGyan-frontend-assignment
 
